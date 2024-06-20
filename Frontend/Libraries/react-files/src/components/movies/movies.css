@@ -1,0 +1,39 @@
+.movies {
+  margin-top: 1.25rem;
+  display: grid;
+  gap: 0.25rem;
+}
+.movie {
+  padding: 0.8rem 1rem;
+  color: black;
+  background-color: bisque;
+  border-radius: 0.4rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 6fr 1fr 1fr 1fr;
+  gap: 0.75rem;
+}
+.movie h2 {
+  color: rgb(255, 255, 255);
+  text-shadow: 0.1rem 0.1rem 0.5rem rgb(200, 200, 200);
+}
+.movie button {
+  border: none;
+  color: white;
+  background-color: rgb(242, 201, 147);
+  border-radius: 0.8rem;
+  width: 5rem;
+  height: 3rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+.movie button:first-of-type {
+  text-shadow: 0rem 0rem .5rem rgb(166, 166, 166);
+}
+.movie button:last-child {
+  text-shadow: 0.1rem 0.1rem 0.1rem red;
+}
+.movie button:hover {
+  background-color: rgb(251, 212, 161);
+}

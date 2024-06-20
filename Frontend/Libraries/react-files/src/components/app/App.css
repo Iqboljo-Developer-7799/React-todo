@@ -1,0 +1,9 @@
+
+.main {
+  width: 62vw;
+  padding: 1rem 2rem;
+  color: bisque;
+  background-color: sandybrown;
+  border-radius: 1rem;
+  box-shadow: 0.25rem 0.25rem 1.5rem 0.5rem rgba(255, 238, 128, 0.6);
+}
